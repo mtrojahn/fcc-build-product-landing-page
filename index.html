@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Build a Product Landing Page</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="main.css" />
+
+    </head>
+    <body>
+        <header id="header">
+            <div id="logo" class="horizontal-flex">
+                <img class="pad-right" id="header-img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7U8j-uT9akxDK5T7Ivqr1SGMzreUDIhZ3s4TQUkg0M-Echmvpzw"
+                    height="32px">
+                <span class="h3 no-pads no-margins font-weight-bold">DEV-O-MATIC</span>
+            </div>
+            <nav id="nav-bar">
+                <a class="h5 nav-link" href="#how">How it Works?</a>
+                <a class="h5 nav-link" href="#devs">Devs</a>
+                <a class="h5 nav-link" href="#coffees">Coffes</a>
+            </nav>
+        </header>
+        <div class="container horizontal-flex">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" name="email" type="email"
+                    placeholder="your@email.com"
+                    class="form-control">
+                <input type="submit" id="submit" class="btn btn-primary"
+                    value="Subscribe for Discounts!">
+            </form>
+
+            <p>&nbsp;</p>
+            <p>Simulation of Devs Working</p>
+            <iframe width="560" height="315" id="video"
+                src="https://www.youtube.com/embed/IfNIv-iy-8Y" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                picture-in-picture" allowfullscreen></iframe>
+            <section id="how">
+                <p>&nbsp</p>
+            </section>
+
+            <p>Here at Dev-O-Matic you can
+                provide
+                <strong>coffee</strong>
+                for a developer and have him working for you for the day.<br>
+                Better quality coffee will lure better developers!
+            </p>
+
+            <section id="devs">
+                <div class="card">
+                    <img class="devs"
+                        src="https://api.sololearn.com/Uploads/Avatars/3299051.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Junior Dev</h5>
+                        <p class="card-text">Can't even tell good coffee from
+                            dirty water. Will do any kind of job as long he
+                            add it to his Github portifolio.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="devs"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQi4WapHGKrHgDywTPt2xZwJ9v4Pa6DpyIq3CPzYvVBaHTryFsw"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Middle Dev</h5>
+                        <p class="card-text">Tasted the good coffee a few times
+                            and now wants it real bad. He will give you good
+                            results but you will be missing a little of TDD or
+                            DDD.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="devs"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-h6pOFPeumIn2eN7o7-IpYcOsdbdj57zRTZXCrTf_jtjIxeQTDg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Senior Dev</h5>
+                        <p class="card-text">No coffe you provide is ever good
+                            enough but if you try to bond giving him some
+                            custom brewed beers he will love you.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <p>&nbsp;</p>
+
+            <section id="coffees">
+                <div><input type="button" class="btn btn-primary" value="Cheap
+                        Coffee"></div>
+                <div><input type="button" class="btn btn-primary" value="Regular
+                        Coffee"></div>
+                <div><input type="button" class="btn btn-primary" value="Premium
+                        Coffee"></div>
+            </section>
+        </div>
+    </body>
+</html>
